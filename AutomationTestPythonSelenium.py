@@ -54,7 +54,7 @@ time.sleep(3)
 driver.find_element(By.ID,"monday").click()
 time.sleep(3)
 driver.find_element(By.ID,"sunday").click()
-time.sleep(3)
+time.sleep(4)
 
 #Drag&Drop
 source_element = driver.find_element(By.ID,"draggable")
