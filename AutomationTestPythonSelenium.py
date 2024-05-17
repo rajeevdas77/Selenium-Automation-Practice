@@ -110,15 +110,6 @@ time.sleep(3)
 driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[1]/td[4]/input").click()
 driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[3]/td[4]/input").click()
 driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[5]/td[4]/input").click()
-#Table4
-driver.find_element(By.XPATH,"//*[@id='pagination']/li[4]/a").click()
-time.sleep(3)
-driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[1]/td[4]/input").click()
-driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[3]/td[4]/input").click()
-driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[5]/td[4]/input").click()
-driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[4]/td[4]/input").click()
-driver.find_element(By.XPATH,"//*[@id='productTable']/tbody/tr[2]/td[4]/input").click()
-
 #Frames
 driver.switch_to.frame("frame-one796456169")
 #Name
